@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="space-y-8">
           <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
-            We Love Crypto & Innovation
+            We Love CRYPTO & Innovation
           </h1>
           <p className="text-lg text-white/80 max-w-xl">
             We embrace the technologies revolutionizing the world: cryptocurrencies, decentralization, and the power of open-source innovation. Our mission is to help businesses implement these tools into their operations.
