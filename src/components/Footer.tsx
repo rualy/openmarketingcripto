@@ -1,4 +1,4 @@
-import { Whatsapp, Facebook, Instagram, Linkedin } from "lucide-react";
+import { MessageCircle, Facebook, Instagram, Linkedin } from "lucide-react";
 import { Button } from "./ui/button";
 
 const Footer = () => {
@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a href="https://whatsapp.com/channel/0029VawHMTJJuyALNny3oB0A" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" className="hover:bg-white/10">
-                  <Whatsapp className="w-5 h-5" />
+                  <MessageCircle className="w-5 h-5" />
                 </Button>
               </a>
               <a href="https://www.faceb/openmarketinggroup" target="_blank" rel="noopener noreferrer">
