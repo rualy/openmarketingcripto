@@ -16,20 +16,6 @@ const Hero = () => {
             <Bitcoin className="w-5 h-5" />
             Get Started
           </Button>
-          <div className="grid grid-cols-3 gap-8 pt-8">
-            <div>
-              <div className="text-3xl font-bold text-white">100+</div>
-              <div className="text-white/60">Crypto Projects</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-white">50+</div>
-              <div className="text-white/60">Happy Clients</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-white">24/7</div>
-              <div className="text-white/60">Support</div>
-            </div>
-          </div>
         </div>
         <div className="relative">
           <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
