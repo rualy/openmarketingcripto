@@ -12,7 +12,7 @@ const Hero = () => {
           <p className="text-lg text-white/80 max-w-xl">
             We embrace the technologies revolutionizing the world: cryptocurrencies, decentralization, and the power of open-source innovation. Our mission is to help businesses implement these tools into their operations.
           </p>
-          <Button className="px-8 py-6 text-lg bg-[#F7931A] text-white hover:bg-[#F7931A]/90 flex items-center gap-2">
+          <Button className="px-8 py-6 text-lg bg-[#0737b0] text-white hover:bg-[#0737b0]/90 flex items-center gap-2">
             <Bitcoin className="w-5 h-5" />
             Get Started
           </Button>
@@ -39,7 +39,7 @@ const Hero = () => {
               className="w-full h-auto"
             />
           </div>
-          <div className="absolute -bottom-4 -right-4 w-72 h-72 bg-[#F7931A]/20 rounded-full blur-3xl"></div>
+          <div className="absolute -bottom-4 -right-4 w-72 h-72 bg-[#0737b0]/20 rounded-full blur-3xl"></div>
         </div>
       </div>
     </div>
