@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Bitcoin } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -12,10 +11,15 @@ const Hero = () => {
           <p className="text-lg text-white/80 max-w-xl">
             We embrace the technologies revolutionizing the world: cryptocurrencies, decentralization, and the power of open-source innovation. Our mission is to help businesses implement these tools into their operations.
           </p>
-          <Button className="px-8 py-6 text-lg bg-[#0737b0] text-white hover:bg-[#0737b0]/90 flex items-center gap-2">
-            <Bitcoin className="w-5 h-5" />
-            Get Started
-          </Button>
+          <a 
+            href="https://openmarketing.group/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <Button className="px-8 py-6 text-lg bg-[#0737b0] text-white hover:bg-[#0737b0]/90">
+              Get Started
+            </Button>
+          </a>
         </div>
         <div className="relative">
           <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
