@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="relative">
           <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1621761191319-c6fb62004040?q=80&w=1288&auto=format&fit=crop"
+              src="https://i.ibb.co/JK2BRMh/cryptocurrency.webp"
               alt="Crypto Marketing"
               className="w-full h-auto"
             />
