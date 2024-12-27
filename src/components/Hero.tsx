@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="min-h-screen flex items-center justify-center px-4 pt-20 bg-background">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        <div className="relative order-1 md:order-1">
+        <div className="relative order-1">
           <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
             <img 
               src="https://i.ibb.co/JK2BRMh/cryptocurrency.webp"
@@ -14,7 +14,7 @@ const Hero = () => {
           </div>
           <div className="absolute -bottom-4 -right-4 w-72 h-72 bg-[#0737b0]/20 rounded-full blur-3xl"></div>
         </div>
-        <div className="space-y-12 order-2 md:order-2">
+        <div className="space-y-12 order-2">
           <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
             We Love CRYPTO & Innovation
           </h1>
