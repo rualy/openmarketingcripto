@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="min-h-screen flex items-center justify-center px-4 pt-20 bg-background">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        <div className="space-y-8">
+        <div className="space-y-8 order-1 md:order-none">
           <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
             Crypto & Innovation
           </h1>
@@ -23,7 +23,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="relative">
+        <div className="relative order-2 md:order-none">
           <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
             <img 
               src="https://i.ibb.co/JK2BRMh/cryptocurrency.webp"
