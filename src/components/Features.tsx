@@ -6,17 +6,17 @@ const Features = () => {
     {
       icon: <Bitcoin className="w-6 h-6 text-white" />,
       title: "Crypto Payments",
-      description: "Accept payments in cryptocurrencies through our unique address, OpenMarketing.crypto"
+      description: "Accept crypto payments easily through OpenMarketing.crypto"
     },
     {
       icon: <Globe className="w-6 h-6 text-white" />,
-      title: "Global Reach",
-      description: "Connect with clients worldwide through decentralized technologies"
+      title: "Global Access",
+      description: "Connect worldwide with decentralized solutions"
     },
     {
       icon: <Network className="w-6 h-6 text-white" />,
       title: "Innovation",
-      description: "Leverage open-source innovation and blockchain technology for your business"
+      description: "Leverage blockchain technology for your business growth"
     }
   ];
 
@@ -27,10 +27,10 @@ const Features = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-white">
-              Revolutionizing Business Through Crypto
+              Business & Crypto
             </h2>
             <p className="text-xl text-white/60">
-              We help businesses implement cryptocurrency and blockchain tools into their operations, optimizing processes and enhancing efficiency for the digital era.
+              Streamline your business with cryptocurrency and blockchain solutions. Simple, secure, and efficient.
             </p>
           </div>
           <div className="grid gap-6">
