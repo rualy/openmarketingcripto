@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Copy, Bitcoin, Ethereum, Litecoin } from "lucide-react";
+import { Copy, Bitcoin, Coins, Wallet } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 
 const Testimonials = () => {
@@ -26,9 +26,9 @@ const Testimonials = () => {
           </p>
           <div className="flex justify-center gap-8 mb-8">
             <Bitcoin className="w-12 h-12 text-[#F7931A] animate-float" />
-            <Ethereum className="w-12 h-12 text-[#627EEA] animate-float" style={{ animationDelay: "1s" }} />
+            <Coins className="w-12 h-12 text-[#627EEA] animate-float" style={{ animationDelay: "1s" }} />
             <Bitcoin className="w-12 h-12 text-[#F7931A] animate-float" style={{ animationDelay: "2s" }} />
-            <Litecoin className="w-12 h-12 text-[#345D9D] animate-float" style={{ animationDelay: "3s" }} />
+            <Wallet className="w-12 h-12 text-[#345D9D] animate-float" style={{ animationDelay: "3s" }} />
             <Bitcoin className="w-12 h-12 text-[#F7931A] animate-float" style={{ animationDelay: "4s" }} />
           </div>
           <Card className="p-6 max-w-lg mx-auto glass-effect">
