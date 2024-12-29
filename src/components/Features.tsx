@@ -6,17 +6,17 @@ const Features = () => {
     {
       icon: <Bitcoin className="w-6 h-6 text-white" />,
       title: "Crypto Payments",
-      description: "Accept crypto payments easily through OpenMarketing.crypto"
+      description: "Start accepting cryptocurrency payments seamlessly, reducing transaction costs, eliminating chargebacks, and appealing to tech-savvy customers."
     },
     {
       icon: <Globe className="w-6 h-6 text-white" />,
-      title: "Global Access",
-      description: "Connect worldwide with decentralized solutions"
+      title: "Global Transactions Without Borders",
+      description: "Break free from traditional banking constraints—conduct international transactions quickly, securely, and without the high fees associated with traditional payment systems."
     },
     {
       icon: <Network className="w-6 h-6 text-white" />,
-      title: "Innovation",
-      description: "Leverage blockchain technology for your business growth"
+      title: "Secure & Transparent Operations",
+      description: "Leverage blockchain technology for unmatched transparency and security, building trust with clients while protecting your business from fraud."
     }
   ];
 
@@ -27,10 +27,10 @@ const Features = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-white">
-              Business & Crypto
+              Transform Your Business with Crypto
             </h2>
             <p className="text-xl text-white/60">
-              Streamline your business with cryptocurrency and blockchain solutions. Simple, secure, and efficient.
+              Embrace the future of commerce by integrating cryptocurrency and blockchain tools, unlocking new opportunities for growth and efficiency in the digital economy.
             </p>
           </div>
           <div className="grid gap-6">

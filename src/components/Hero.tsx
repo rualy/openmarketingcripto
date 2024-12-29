@@ -6,10 +6,10 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="flex flex-col space-y-8">
           <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight order-1">
-            Crypto & Innovation
+            We love crypto & Innovation
           </h1>
           
-          <div className="relative order-2 md:hidden w-full mb-8">
+          <div className="relative order-2 md:hidden w-full">
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
               <img 
                 src="https://i.ibb.co/JK2BRMh/cryptocurrency.webp"
@@ -21,10 +21,10 @@ const Hero = () => {
           </div>
 
           <p className="text-lg text-white/80 max-w-xl order-3">
-            Empowering businesses with cryptocurrency solutions and blockchain technology. We make digital transformation simple and accessible.
+            En Open Marketing Group, abrazamos las tecnologías que están revolucionando el mundo: criptomonedas, descentralización y el poder del código abierto. Creemos que estas innovaciones no solo transforman la forma en que hacemos negocios, sino que también promueven un entorno más justo, transparente y colaborativo. Nos dedicamos a ayudar a las empresas a implementar estas herramientas en sus operaciones, optimizando procesos, mejorando su eficiencia y preparándolas para sobresalir en la era digital.
           </p>
           
-          <div className="pt-4 order-4">
+          <div className="pt-8 order-4">
             <a 
               href="https://openmarketing.group/" 
               target="_blank" 

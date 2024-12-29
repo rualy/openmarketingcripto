@@ -8,10 +8,10 @@ const Download = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center space-y-6">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Learn More
+            Contáctanos
           </h2>
           <p className="text-xl text-white/60 max-w-2xl mx-auto">
-            Visit our website for detailed information
+            Para más información y contacto directo, visita nuestra página oficial donde encontrarás todos los detalles sobre nuestros servicios y formas de comunicación.
           </p>
           <div className="flex justify-center">
             <a 
