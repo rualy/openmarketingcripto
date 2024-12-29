@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Wallet } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -15,12 +14,8 @@ const Navbar = () => {
         <div className="hidden md:flex items-center space-x-8">
           <a href="#start" className="text-white/80 hover:text-white transition-colors">Start</a>
           <a href="#business" className="text-white/80 hover:text-white transition-colors">Business</a>
-          <a href="#payments" className="text-white/80 hover:text-white transition-colors">Payments</a>
           <a href="#contact" className="text-white/80 hover:text-white transition-colors">Contact</a>
-          <Button className="bg-primary text-white hover:bg-primary/90">
-            <Wallet className="w-4 h-4 mr-2" />
-            Wallet
-          </Button>
+          <a href="#payments" className="text-white/80 hover:text-white transition-colors">Payments</a>
         </div>
       </div>
     </nav>

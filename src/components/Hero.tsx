@@ -21,7 +21,7 @@ const Hero = () => {
           </div>
 
           <p className="text-lg text-white/80 max-w-xl order-3">
-            En Open Marketing Group, abrazamos las tecnologías que están revolucionando el mundo: criptomonedas, descentralización y el poder del código abierto. Creemos que estas innovaciones no solo transforman la forma en que hacemos negocios, sino que también promueven un entorno más justo, transparente y colaborativo. Nos dedicamos a ayudar a las empresas a implementar estas herramientas en sus operaciones, optimizando procesos, mejorando su eficiencia y preparándolas para sobresalir en la era digital.
+            At Open Marketing Group, we embrace the technologies revolutionizing the world: cryptocurrencies, decentralization, and the power of open source. We believe these innovations not only transform how we do business but also promote a fairer, more transparent, and collaborative environment. We are dedicated to helping businesses implement these tools in their operations, optimizing processes, improving efficiency, and preparing them to excel in the digital age.
           </p>
           
           <div className="pt-8 order-4">

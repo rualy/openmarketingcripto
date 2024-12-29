@@ -17,7 +17,7 @@ const Testimonials = () => {
 
   return (
     <div className="py-20 px-4 bg-background relative overflow-hidden" id="payments">
-      <div className="absolute inset-0 bg-accent/5 backdrop-blur-3xl"></div>
+      <div className="absolute inset-0 bg-[#F7931A]/5 backdrop-blur-3xl"></div>
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center space-y-8">
           <h2 className="text-4xl font-bold text-white mb-8">Crypto Payments</h2>
