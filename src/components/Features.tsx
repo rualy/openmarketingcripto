@@ -21,7 +21,7 @@ const Features = () => {
   ];
 
   return (
-    <div className="py-20 px-4 bg-background relative overflow-hidden" id="features">
+    <div className="py-20 px-4 bg-background relative overflow-hidden" id="business">
       <div className="absolute inset-0 bg-[#F7931A]/5 backdrop-blur-3xl"></div>
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">

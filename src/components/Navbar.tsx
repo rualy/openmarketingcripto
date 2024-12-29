@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Bitcoin, Wallet } from "lucide-react";
+import { Wallet } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -13,16 +13,13 @@ const Navbar = () => {
           />
         </div>
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#features" className="text-white/80 hover:text-white transition-colors">Services</a>
-          <a href="#about" className="text-white/80 hover:text-white transition-colors">About</a>
+          <a href="#start" className="text-white/80 hover:text-white transition-colors">Start</a>
+          <a href="#business" className="text-white/80 hover:text-white transition-colors">Business</a>
+          <a href="#payments" className="text-white/80 hover:text-white transition-colors">Payments</a>
           <a href="#contact" className="text-white/80 hover:text-white transition-colors">Contact</a>
           <Button className="bg-primary text-white hover:bg-primary/90">
             <Wallet className="w-4 h-4 mr-2" />
             Wallet
-          </Button>
-          <Button className="bg-primary text-white hover:bg-primary/90">
-            Contact Us
-            <Bitcoin className="w-4 h-4 ml-2" />
           </Button>
         </div>
       </div>
