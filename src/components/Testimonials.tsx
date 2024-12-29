@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Copy, Bitcoin, Coins, Wallet } from "lucide-react";
+import { Copy } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 
 const Testimonials = () => {
@@ -24,13 +24,6 @@ const Testimonials = () => {
           <p className="text-xl text-white/80 max-w-2xl mx-auto">
             Send payments directly through our crypto address. Fast, secure, and intermediary-free transactions.
           </p>
-          <div className="flex justify-center gap-8 mb-8">
-            <Bitcoin className="w-12 h-12 text-[#F7931A] animate-float" />
-            <Coins className="w-12 h-12 text-[#627EEA] animate-float" style={{ animationDelay: "1s" }} />
-            <Bitcoin className="w-12 h-12 text-[#F7931A] animate-float" style={{ animationDelay: "2s" }} />
-            <Wallet className="w-12 h-12 text-[#345D9D] animate-float" style={{ animationDelay: "3s" }} />
-            <Bitcoin className="w-12 h-12 text-[#F7931A] animate-float" style={{ animationDelay: "4s" }} />
-          </div>
           <Card className="p-6 max-w-lg mx-auto glass-effect">
             <p className="font-mono text-xl text-white mb-4">{cryptoAddress}</p>
             <Button 
