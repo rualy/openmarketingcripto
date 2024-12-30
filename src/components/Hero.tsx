@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 pt-20 pb-32 bg-background" id="start">
+    <div className="min-h-screen flex items-center justify-center px-4 pt-20 pb-16 bg-background" id="start">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="flex flex-col space-y-8">
           <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight order-1">
@@ -24,7 +24,7 @@ const Hero = () => {
             At Open Marketing Group, we embrace the technologies revolutionizing the world: cryptocurrencies, decentralization, and the power of open source. We believe these innovations not only transform how we do business but also promote a fairer, more transparent, and collaborative environment. We are dedicated to helping businesses implement these tools in their operations, optimizing processes, improving efficiency, and preparing them to excel in the digital age.
           </p>
           
-          <div className="pt-8 pb-16 order-4">
+          <div className="pt-8 pb-8 order-4">
             <a 
               href="https://openmarketing.group/" 
               target="_blank" 
