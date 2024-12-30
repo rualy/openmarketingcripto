@@ -18,7 +18,7 @@ const Footer = () => {
           </p>
           
           <div className="flex space-x-4">
-            <a href="https://wa.me/message/KPQGXMNPWMVXN1" target="_blank" rel="noopener noreferrer">
+            <a href="https://whatsapp.com/channel/0029VawHMTJJuyALNny3oB0A" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon" className="hover:bg-white/10">
                 <MessageCircle className="w-5 h-5" />
               </Button>
