@@ -4,6 +4,7 @@ import FeaturesEs from "@/components/es/FeaturesEs";
 import TestimonialsEs from "@/components/es/TestimonialsEs";
 import DownloadEs from "@/components/es/DownloadEs";
 import FooterEs from "@/components/es/FooterEs";
+import FloatingTranslate from "@/components/FloatingTranslate";
 
 const IndexEs = () => {
   return (
@@ -14,6 +15,7 @@ const IndexEs = () => {
       <TestimonialsEs />
       <DownloadEs />
       <FooterEs />
+      <FloatingTranslate />
     </div>
   );
 };

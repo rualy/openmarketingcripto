@@ -4,6 +4,7 @@ import Features from "@/components/Features";
 import Testimonials from "@/components/Testimonials";
 import Download from "@/components/Download";
 import Footer from "@/components/Footer";
+import FloatingTranslate from "@/components/FloatingTranslate";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <Testimonials />
       <Download />
       <Footer />
+      <FloatingTranslate />
     </div>
   );
 };
