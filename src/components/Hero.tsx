@@ -1,12 +1,13 @@
 import { Button } from "@/components/ui/button";
+import { Heart } from "lucide-react";
 
 const Hero = () => {
   return (
     <div className="min-h-screen flex items-center justify-center px-4 pt-20 pb-16 bg-background" id="start">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="flex flex-col space-y-8">
-          <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight order-1">
-            We love crypto & Innovation
+          <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight order-1 flex items-center gap-4">
+            We love <Heart className="text-red-500 animate-pulse" size={48} /> crypto & Innovation
           </h1>
           
           <div className="relative order-2 md:hidden w-full">
