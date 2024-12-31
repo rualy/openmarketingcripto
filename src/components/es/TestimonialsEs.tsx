@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Copy } from "lucide-react";
+import { Copy, Wallet } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 
 const TestimonialsEs = () => {
@@ -28,9 +28,9 @@ const TestimonialsEs = () => {
             <p className="font-mono text-xl text-white mb-4">{cryptoAddress}</p>
             <Button 
               onClick={handleCopy}
-              className="bg-primary hover:bg-primary/90 text-white"
+              className="bg-[#0737b0] hover:bg-[#0737b0]/90 text-white"
             >
-              <Copy className="w-4 h-4 mr-2" />
+              <Wallet className="w-4 h-4 mr-2" />
               Copiar Dirección
             </Button>
           </Card>
