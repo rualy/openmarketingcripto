@@ -6,7 +6,7 @@ const HeroEs = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="flex flex-col space-y-8">
           <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight order-1">
-            Nos encantan las criptomonedas y la innovación
+            WE LOVE CRYPTO & INNOVATION
           </h1>
           
           <div className="relative order-2 md:hidden w-full">
