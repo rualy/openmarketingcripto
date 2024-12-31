@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { Globe } from "lucide-react";
 
 const NavbarEs = () => {
   return (
@@ -17,7 +18,10 @@ const NavbarEs = () => {
           <a href="#business" className="text-white/80 hover:text-white transition-colors">Negocios</a>
           <a href="#contact" className="text-white/80 hover:text-white transition-colors">Contacto</a>
           <a href="#payments" className="text-white/80 hover:text-white transition-colors">Pagos</a>
-          <Link to="/" className="text-white/80 hover:text-white transition-colors">EN</Link>
+          <Link to="/" className="flex items-center gap-1">
+            <Globe className="h-4 w-4 text-white/80" />
+            <span className="text-white/80 hover:text-white transition-colors">EN</span>
+          </Link>
         </div>
       </div>
     </nav>
