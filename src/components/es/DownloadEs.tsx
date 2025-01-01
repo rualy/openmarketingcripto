@@ -6,16 +6,14 @@ const DownloadEs = () => {
     <div className="py-20 px-4 bg-background relative overflow-hidden" id="contact">
       <div className="absolute inset-0 bg-accent/5 backdrop-blur-3xl"></div>
       <div className="max-w-7xl mx-auto relative z-10">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="text-left space-y-6">
-            <h2 className="text-4xl md:text-5xl font-bold text-white">
-              CONTÁCTANOS
-            </h2>
-            <p className="text-xl text-white/60">
-              Para más información y contacto directo, visita nuestro sitio web oficial donde encontrarás todos los detalles sobre nuestros servicios y canales de comunicación.
-            </p>
-          </div>
-          <div className="flex justify-center md:justify-end">
+        <div className="text-center space-y-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-white">
+            CONTÁCTANOS
+          </h2>
+          <p className="text-xl text-white/60 max-w-2xl mx-auto">
+            Para más información y contacto directo, visita nuestro sitio web oficial donde encontrarás todos los detalles sobre nuestros servicios y canales de comunicación.
+          </p>
+          <div className="flex justify-center">
             <a 
               href="https://openmarketing.group/" 
               target="_blank" 
