@@ -27,7 +27,7 @@ const Features = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-white">
-              Transform Your Business with Crypto
+              TRANSFORM YOUR BUSINESS WITH CRYPTO
             </h2>
             <p className="text-xl text-white/60">
               Embrace the future of commerce by integrating cryptocurrency and blockchain tools, unlocking new opportunities for growth and efficiency in the digital economy.

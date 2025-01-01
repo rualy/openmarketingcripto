@@ -27,7 +27,7 @@ const FeaturesEs = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-white">
-              Transforma tu Negocio con Cripto
+              TRANSFORMA TU NEGOCIO CON CRIPTO
             </h2>
             <p className="text-xl text-white/60">
               Abraza el futuro del comercio integrando herramientas de criptomonedas y blockchain, desbloqueando nuevas oportunidades de crecimiento y eficiencia en la economía digital.

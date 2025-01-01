@@ -8,7 +8,7 @@ const DownloadEs = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center space-y-6">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Contáctanos
+            CONTÁCTANOS
           </h2>
           <p className="text-xl text-white/60 max-w-2xl mx-auto">
             Para más información y contacto directo, visita nuestro sitio web oficial donde encontrarás todos los detalles sobre nuestros servicios y canales de comunicación.

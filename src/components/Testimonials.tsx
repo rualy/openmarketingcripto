@@ -20,7 +20,7 @@ const Testimonials = () => {
       <div className="absolute inset-0 bg-[#F7931A]/5 backdrop-blur-3xl"></div>
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center space-y-8">
-          <h2 className="text-4xl font-bold text-white mb-8">Crypto Payments</h2>
+          <h2 className="text-4xl font-bold text-white mb-8">CRYPTO PAYMENTS</h2>
           <p className="text-xl text-white/80 max-w-2xl mx-auto">
             Send payments directly through our crypto address. Fast, secure, and intermediary-free transactions.
           </p>

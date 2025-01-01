@@ -8,7 +8,7 @@ const Download = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center space-y-6">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Contact Us
+            CONTACT US
           </h2>
           <p className="text-xl text-white/60 max-w-2xl mx-auto">
             For more information and direct contact, visit our official website where you'll find all the details about our services and communication channels.
